@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>webアプリ２のおさらい</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>webアプリ２のおさらい</h1>
+  <p>作りたいものが思いつかなかったのでテスト勉強も兼ねて。</p>
+  <h2>第１〜４回</h2>
+  <p>linuxについて/CLIのコマンド操作/vim</p>
+  <h3>怪しかったところまとめ</h3>
+  <ul>
+    <li>ディレクトリ削除 <p>rm -r</p></li>
+    <li>ディレクトリ再起的コピー <p>cp -r</p></li>
+    <li>実質ファイル名変更 <p>mv 今のファイル名 変更したいファイル名</p></li>
+  </ul>
+  <h2>第５〜７回</h2>
+  <p>通信するbotの開発</p>
+  <h3>怪しかったところまとめ</h3>
+  <ul>
+    <li>tmuxで仮想端末を作成すると複数のコンソールを同時に扱える</li>
+    <li>ホストPCからVMインスタンス上のHTTPサーバへのアクセス用IPアドレス<p>ip -4 a</p></li>
+    <li>シェルスクリプトの定期実行<p>crontab -b</p>からvimで編集</li>
+  </ul>
+  <h2>第８〜１０回</h2>
+  <p>Git、Github</p>
+  <h3>怪しかったところまとめ</h3>
+  <ul>
+    <li>フォーク：他人のリポジトリを自分のリポジトリにコピー</li>
+    <li>クローン：リポジトリをローカル上にコピー</li>
+    <li>ローカルからGithubに変更を反映</li>
+    <ol>
+      <li>ステージング<p>git add ファイル名</p></li>
+      <li>コミット<p>git commit -m "コメント"</p></li>
+      <li>push <p>git push origin main</p></li>
+    </ol>
+    <li>別ブランチからのマージ<p>git merge 取り込むブランチ</p></li>
+  </ul>
+  <h2>第１１〜１５回</h2>
+  <p>Docker, Node.js</p>
+  <h3>怪しかったところまとめ</h3>
+  <ul>
+    <li>Dockerコンテナ起動：compose.yamlに必要な情報を書いた上で</li>
+    <ol>
+      <li><p>docker compose up -d</p></li>
+      <li><p>dockercompose exec app bash</p></li>
+    </ol>
+    <li>Dockerコンテナ一覧 <p>docker compose ps</p></li>
+    <li>Node.js：ブラウザ以外でのjs実行環境</li>
+    <li>モジュール呼び出し <p>require('node:fs')</p></li>
+    <li>比較関数 sortに渡す無名関数<p>pair2[]. - pair1[].</p></li>
+  </ul>
+</body>
+</html>

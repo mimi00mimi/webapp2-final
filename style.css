@@ -1,0 +1,47 @@
+
+body {
+  color: #222;
+  background: #f6f6f6;
+}
+
+#toggle-command-visibility {
+  display: inline-block;
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  color: #222;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  border-left: 6px solid #4a90e2;
+  padding-left: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  color: #444;
+}
+
+
+li p {
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: "SFMono-Regular", "Menlo", "Consolas", monospace;
+}
+
+.hide-commands li p {
+  color: #fff;
+  background: #fff;
+}

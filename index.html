@@ -6,7 +6,8 @@
   <title>webアプリ２のおさらい</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="hide-commands">
+  <button id="toggle-command-visibility" type="button">コマンドを表示</button>
   <h1>webアプリ２のおさらい</h1>
   <p>作りたいものが思いつかなかったのでテスト勉強も兼ねて。</p>
   <h2>第１〜４回</h2>
@@ -17,6 +18,7 @@
     <li>ディレクトリ再起的コピー <p>cp -r</p></li>
     <li>実質ファイル名変更 <p>mv 今のファイル名 変更したいファイル名</p></li>
   </ul>
+  <hr>
   <h2>第５〜７回</h2>
   <p>通信するbotの開発</p>
   <h3>怪しかったところまとめ</h3>
@@ -25,6 +27,7 @@
     <li>ホストPCからVMインスタンス上のHTTPサーバへのアクセス用IPアドレス<p>ip -4 a</p></li>
     <li>シェルスクリプトの定期実行<p>crontab -b</p>からvimで編集</li>
   </ul>
+  <hr>
   <h2>第８〜１０回</h2>
   <p>Git、Github</p>
   <h3>怪しかったところまとめ</h3>
@@ -39,6 +42,7 @@
     </ol>
     <li>別ブランチからのマージ<p>git merge 取り込むブランチ</p></li>
   </ul>
+  <hr>
   <h2>第１１〜１５回</h2>
   <p>Docker, Node.js</p>
   <h3>怪しかったところまとめ</h3>
@@ -53,5 +57,6 @@
     <li>モジュール呼び出し <p>require('node:fs')</p></li>
     <li>比較関数 sortに渡す無名関数<p>pair2[]. - pair1[].</p></li>
   </ul>
+  <script src="script.js"></script>
 </body>
 </html>
